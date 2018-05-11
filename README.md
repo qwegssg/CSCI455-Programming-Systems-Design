@@ -7,4 +7,4 @@ duction to algorithm analysis. There will also be an emphasis on good developmen
 A second goal of the course is to introduce the Unix programming environment, including tools such as the shell, simple shell scripts, and makefiles.  
 
 Course Website: http://www-scf.usc.edu/~csci455/  
-(The course material in the website may vary with different semesters.)
+(The course material on the website may vary with different semesters.)
