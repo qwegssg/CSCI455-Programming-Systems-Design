@@ -1,0 +1,70 @@
+Name: Yutao Ren		
+USC NetId: yutaoren
+CSCI 455 PA1
+Fall 2017
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+YR
+
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+double scale = (double)(getHeight() - 2 * VERTICAL_BUFFER) / getNumTrials;
+
+The bug is about the data type. When I first ran the program, the bars were 
+occasionally not displayed onto the window. When I printed out the value of 
+scale, the value showed zero. Then I noticed there was something wrong with 
+data type. I used cast operator to solve this problem. 
+
+Before assigning the value to scale variable, the cast operation converts 
+integer type value to double type so that the result of the operation comes 
+to double type.
+
+The cast operation is in section 4.2.5 of the textbook.
+
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+
+
+----------------------------------------------
+ANSWERS TO ASSIGNMENT README QUESTIONS (if applicable):
+
+1. Probability of two heads: 0.25;
+   Probability of one head and one tail: 0.5;
+   Probability of two tails: 0.25.
+   The first coin shows head, while the second coin show tail, the result will
+show one head and one tail. In addition, the result will also show one head and 
+one tail when the first shows tail and the second shows head. However, the result
+will show two heads only if both of coins shows head, same as the result of two
+tails. Therefore, the result of one head and one tail is different from the other.
+
+2. 5000.
+
+3. The largest value that worked correctly: 42949673.
+   The value that overflowed: 42949674.
+
+
