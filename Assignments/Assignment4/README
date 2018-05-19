@@ -1,0 +1,74 @@
+Name: Yutao Ren
+USC NetID: yutaoren
+CS 455 PA4
+Fall 2017
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+YR
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+
+----------------------------------------------
+DESCRIPTION OF YOUR CLASS DESIGN AND ALGORITHMS AND DATA STRUCTURES USED:
+
+
+WordFinder Class:
+Use an ArrayList to store all the subsets of the rack.
+Use another ArrayList to store all the anagrams from every subsets of the rack.
+Use TreeMap to represent all the words and corresponding scores, use words as key,
+Scores as value.
+Give all the information to the third ArrayList, which stores every entry of the TreeMap.
+Implement the comparator to sort the list by decreasing order by score.
+Print out the result.
+
+AnagramDictionary Class:
+Convert string to array of character, sort the array, then convert it back to string to 
+Get the canonical form.
+Use HashMap to represent dictionary. use the canonical form of given string as key, 
+use ArrayList as value, which stores the anagrams of the string.
+If key already exists in map, then add the string to the corresponding ArrayList.
+If key doesn't exist, creates a new ArrayList with the string.  
+
+Rack Class:
+Use TreeMap to compute the multiplicity of letter.use unique letter as key.
+Use multiplicity of each letter as value. 
+Iterate the entry set of map, get value of multiplicity and store the value in array.
+Use toString to Return a String object representing the Character's value.
+
+ScoreTable Class:
+Use hard code to compute the score for every letter. 
+
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+
+
+
+
+
+
